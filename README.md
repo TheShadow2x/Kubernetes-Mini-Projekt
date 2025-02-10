@@ -1,6 +1,7 @@
 Hallo,<br>
-um diese Kubernetes Anwendung zu deployen muss ein Cluster laufen.
-Wenn dies der Fall ist führe die folgenden Befehle nacheinander in der Konsole aus:
+um diese Kubernetes Anwendung zu deployen muss ein Cluster laufen. <br>
+Starte nun eine Konsole in diesem Ordner. <br>
+Wenn dies der Fall ist führe die folgenden Befehle nacheinander aus:
 
 `kubectl apply -f '.\Kubernetes Manifeste\namespace.yaml'`
 
@@ -10,7 +11,7 @@ An dieser Stelle kann man einmal prüfen, dass der Server schon gestartet ist:
 
 `kubectl get pod -n mini-projekt`
 
-Danach kann man die Website abrufen (z.B. mit)
+Sobald dies der Fall ist, kann man die Website abrufen (z.B. mit)
 
 `minikube service web-anwendung -n mini-projekt`
 
